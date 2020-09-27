@@ -1,0 +1,20 @@
+{
+  "name": "vitetron-demo",
+  "version": "0.0.8",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite-electron dev",
+    "release": "vite-electron release"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "electron": "^10.1.2",
+    "electron-builder": "^22.8.1",
+    "vite": "^1.0.0-rc.1",
+    "vitetron": "file:../vitetron"
+  }
+}
