@@ -4,8 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite-electron dev",
-    "release": "vite-electron release"
+    "start": "vitetron start",
+    "release": "vitetron release"
   },
   "dependencies": {
     "vue": "^3.0.0-rc.1"
