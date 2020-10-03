@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "vitetron",
+      "type": "node",
+      "request": "launch",
+      "protocol": "inspector",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+      "windows": {
+        "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
+      },
+      "preLaunchTask": "vitetron",
+      "args": [
+        "--remote-debugging-port=9223",
+        "${workspaceFolder}/release/bundled/"
+      ],
+      "outFiles": ["${workspaceFolder}/release/bundled/**/*.js"]
+    }
+  ]
+}

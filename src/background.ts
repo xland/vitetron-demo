@@ -1,4 +1,3 @@
-import vitetron from "vitetron";
 import { app, BrowserWindow } from "electron";
 let win;
 app.on("ready", () => {
