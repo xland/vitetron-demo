@@ -12,10 +12,10 @@
       },
       "preLaunchTask": "vitetron",
       "args": [
+        "${workspaceFolder}/src/entry_by_vitetron.js",
         "--remote-debugging-port=9223",
-        "${workspaceFolder}/release/bundled/"
       ],
-      "outFiles": ["${workspaceFolder}/release/bundled/**/*.js"]
+      "outFiles": ["${workspaceFolder}/src/**/*.js"]
     }
   ]
 }

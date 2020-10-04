@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/background.ts"],
+  "sourcesContent": ["import { app, BrowserWindow } from \"electron\";\r\nlet win;\r\napp.on(\"ready\", () => {\r\n  win = new BrowserWindow();\r\n  vitetron.load(win, \"index.html\");\r\n});\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;AAAA,iBAAmC;AACnC,IAAI;AACJ,aAAI,GAAG,SAAS;AACd,QAAM,IAAI;AACV,WAAS,KAAK,KAAK;AAAA;",
+  "names": []
+}
